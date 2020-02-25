@@ -1,0 +1,123 @@
+/* Estilos práctica 19 */
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Architects+Daughter&display=swap');
+
+body{
+    background-color:black;
+}
+.bosque{
+    background-image: url("../img/fondo1.jpg");
+    background-size: cover;
+    padding-bottom:30px;
+}
+
+h1{
+    font-family: 'Alex Brush', cursive;
+    font-weight:normal;
+    color: #ff867b;
+    font-size: 100px;
+    border-bottom: 2px solid #ff867b;
+    text-align:center;
+    margin-top:0px;
+}
+
+p::first-letter{
+    font-family: 'Alex Brush', cursive;
+    font-size: 100px;
+    color:#5397c6;
+}
+
+p{
+    font-family: 'Architects Daughter', cursive;
+    color:white;
+    font-size:1.5em;
+    margin-left:40%;
+    margin-right:15%;
+    margin-bottom: 70px;
+}
+
+p:nth-of-type(even){
+    margin-left:15%;
+    margin-right:40%;
+}
+p:nth-of-type(even)::first-letter {
+    color:#ff867b;
+}
+
+p:hover:first-letter{
+    color:white;
+}
+
+.marmol{
+    background:url("../img/fondo2.jpg");
+    background-size: cover;
+    padding-bottom:30px;
+}
+
+.bosque p{
+    background-color:rgba(0,0,0,.7);
+}
+
+.marmol p{
+    background-color:rgba(128,128,128,.9);
+}
+
+ul{
+    width:500px;
+    align:center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color:rgba(0,0,0,.7);
+}
+
+li{
+    font-family: 'Architects Daughter', cursive;
+    font-size:1.7em;
+}
+
+li strong{
+    color:grey;
+}
+
+li.guion{
+    list-style-image:url("../img/guion.png");
+}
+
+li.cuentos{
+    list-style-image:url("../img/off.png");
+    font-family:'Alex Brush', cursive;
+    font-size:2.5em;
+    color:white;
+    margin-left:30%;
+}
+
+li.guion:nth-of-type(odd){
+    color:#5397c6;
+}
+
+li.guion:nth-of-type(even){
+    color:#ff867b;
+}
+
+h2{
+    font-family: 'Architects Daughter', cursive;
+    font-size:2em;
+    background: #39e1ff;
+    border-radius: 10px;
+    color:white;
+    text-align:center;
+    width:300px;
+    margin:auto;
+}
+
+address{
+    color:white;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size:1.2em;
+}
+
+footer{
+    padding-top:0px;
+}
