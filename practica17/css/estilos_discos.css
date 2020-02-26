@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Neuton:400,400i,700&display=swap');
+
+body{
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+    color:white;
+}
+
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgba(0,0,0,0.5);
+}
+
+h2:nth-of-type(2){
+    background-color:grey;
+}
+
+small{
+    color:black;
+    background-color:white;
+    font-size:0.5em;
+}
+
+p{
+    font-family: 'Neuton', serif;
+    font-size:1.5em;
+}
+
+img{
+    width:300px;
+    margin-left:33%;
+    border:solid white;
+}
+
+li{
+    list-style-image:url("../img/song-icon.png");
+    font-size:1.5em;
+}
+
+a{
+    color:yellow;
+}
+
+a:hover{
+    color:black;
+    background-color:yellow;
+}
