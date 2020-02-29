@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Merienda:400,700&display=swap');
+
+body{
+    width:600px;
+    margin:0 auto;
+    padding:0;
+    background-color: #d7dbdd;
+}
+
+header, main{
+    background-color:white;
+}
+
+h1,h2,p,li{
+    margin:0;
+    padding:15px;
+}
+
+h1,h2{
+    font-family: 'Merienda',sans-serif;
+    font-weight:700;
+    color:red;
+}
+
+h2{
+    padding:0 0 15px 15px;
+}
+
+p, li{
+    font-family: 'Alegreya Sans',sans-serif;
+    font-size:1.3em;
+    text-align:justify;
+}
+
+figure,ul figure{
+    margin:0;
+    padding:0;
+}
+
+/* Efectos */
+
+strong:hover{
+    font-size:2em;
+    color:yellow;
+    background-color:blue;
+}
+
+img:hover{
+    width:125%;
+}
+
+address{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    background-color: #85929e;
+    padding:15px 0;
+}
