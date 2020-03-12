@@ -1,30 +1,69 @@
 /* Hoja de estilos práctica CV */
 
 @import url('https://fonts.googleapis.com/css?family=Baloo+2|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
 
 body{
     max-width:700px;
-    margin:0 40px;
-    background-color:#58D3F7;
+    margin:0 auto;
+    background-image:url("../img/fondo_code_1600.jpg");
+    background-attachment: fixed;
     font-family: 'Baloo 2', cursive;
 }
 
+header{
+    background-color:#2ECC71;
+    background-image:url("../img/foto_jnr.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+h1, header h3{
+    text-align:right;
+    margin:0;
+}
+
 h1{
-    text-align:center;
     font-size:2.5em;
 }
 
+h2{
+    font-size:2em;
+}
+
+header h3{
+    font-size:1.5em;
+}
+
 h1,h2{
-    text-shadow: navy 5px 3px 8px;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-shadow: #F7DC6F 5px 3px 8px;
 }
 
 p{
-    font-size:1.2em;
+    font-size:1.3em;
 }
 
-.personal, .cono, .laboral, .formacion, .trabajos{
-    margin:0 20px;
-    padding:15px 15px 15px 30px;
+ul li{
+    line-height:30px;
+}
+
+.contacto p{
+    text-align:center;
+}
+
+strong:hover{
+    font-size:2em;
+    color: #a93226 ;
+}
+
+header, .contacto, .personal, .cono, .laboral, .formacion, .trabajos, footer address{
+    margin:0;
+    padding:5px 15px 15px 30px;
+}
+
+.contacto{
+    background-color: #D7BDE2;
 }
 
 .personal{
@@ -38,7 +77,12 @@ p{
 }
 
 .laboral{
+    list-style-type: circle;
     background-color: #d4efdf;
+}
+
+.laboral ul li, .formacion ul li, .trabajos ul li{
+    font-size:1.3em;
 }
 
 .formacion{
@@ -49,14 +93,27 @@ p{
     background-color: #229954;
 }
 
+.trabajos ul, .trabajos a{
+    color:white;
+    text-decoration:none;
+}
+
+.trabajos a:hover{
+    font-size:1.5em;
+    color:blue;
+}
+
 address{
     color:darkblue;
     text-align:center;
     margin-top:30px;
     margin-bottom:30px;
+    background-color: #d5dbdb;
 }
 
 
 /*
 font-family: 'Roboto Mono', monospace;
 font-family: 'Baloo 2', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+ */
