@@ -1,0 +1,62 @@
+/* Hoja de estilos práctica CV */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+2|Roboto+Mono&display=swap');
+
+body{
+    max-width:700px;
+    margin:0 40px;
+    background-color:#58D3F7;
+    font-family: 'Baloo 2', cursive;
+}
+
+h1{
+    text-align:center;
+    font-size:2.5em;
+}
+
+h1,h2{
+    text-shadow: navy 5px 3px 8px;
+}
+
+p{
+    font-size:1.2em;
+}
+
+.personal, .cono, .laboral, .formacion, .trabajos{
+    margin:0 20px;
+    padding:15px 15px 15px 30px;
+}
+
+.personal{
+    background-color: #fcf3cf;
+}
+
+.cono{
+    list-style-type: square;
+    font-family: 'Roboto Mono', monospace;
+    background-color:#A9E2F3;
+}
+
+.laboral{
+    background-color: #d4efdf;
+}
+
+.formacion{
+    background-color: #d68910;
+}
+
+.trabajos{
+    background-color: #229954;
+}
+
+address{
+    color:darkblue;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Baloo 2', cursive;
