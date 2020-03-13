@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background-color:#2ECC71;
+    background-color:rgba(46, 204, 113, 0.9);
     background-image:url("../img/foto_jnr.jpg");
     background-repeat: no-repeat;
     background-size:contain;
@@ -37,7 +37,7 @@ header h3{
 
 h1,h2{
     font-family: 'Gloria Hallelujah', cursive;
-    text-shadow: #F7DC6F 5px 3px 8px;
+    text-shadow: #F5EF16 5px 3px 8px;
 }
 
 p{
@@ -63,22 +63,22 @@ header, .contacto, .personal, .cono, .laboral, .formacion, .trabajos, footer add
 }
 
 .contacto{
-    background-color: #D7BDE2;
+    background-color: rgba(215, 189, 226, 0.9);
 }
 
 .personal{
-    background-color: #fcf3cf;
+    background-color: rgba(252, 243, 207, 0.9);
 }
 
 .cono{
     list-style-type: square;
     font-family: 'Roboto Mono', monospace;
-    background-color:#A9E2F3;
+    background-color:rgba(169, 226, 243,0.9);
 }
 
 .laboral{
     list-style-type: circle;
-    background-color: #d4efdf;
+    background-color: rgba(212, 239, 223,0.9);
 }
 
 .laboral ul li, .formacion ul li, .trabajos ul li{
@@ -86,11 +86,11 @@ header, .contacto, .personal, .cono, .laboral, .formacion, .trabajos, footer add
 }
 
 .formacion{
-    background-color: #d68910;
+    background-color: rgba(214, 137, 16,0.9);
 }
 
 .trabajos{
-    background-color: #229954;
+    background-color: rgba(34, 153, 84,0.9);
 }
 
 .trabajos ul, .trabajos a{
@@ -108,7 +108,7 @@ address{
     text-align:center;
     margin-top:30px;
     margin-bottom:30px;
-    background-color: #d5dbdb;
+    background-color: rgba(213, 219, 219,0.9);
 }
 
 
